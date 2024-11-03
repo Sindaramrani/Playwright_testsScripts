@@ -18,22 +18,27 @@ node -v
 npm -v  //This should show the versions of Node.js and npm.
 
 Step 2: Set Up the Project Directory
+
 Create a new directory for your project: Playwright_testScript.
 
 Navigate to the directory in the terminal
 
 Initialize the Node.js project by running:
+
 npm init -y {This will create a package.json file in your project directory.}
 
 Step 3: Install Playwright and Other Dependencies
 
 Install Playwright:
+
 npm install playwright {This will add Playwright to your project’s dependencies in package.json.}
 
 Install the required browsers (Chromium, Firefox) that Playwright uses:
+
 npx playwright install {This command will download the necessary browser for testing.}
 
 To Run Tests
+
 node .\TestCase1.js   
 node .\TestCase2.js   
 node .\TestCase3.js   
