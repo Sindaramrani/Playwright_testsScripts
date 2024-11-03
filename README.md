@@ -3,6 +3,7 @@
 Dependencies Required
 Node.js: Required to run JavaScript on the server-side. It includes NPM (Node Package Manager), which we’ll use to install other dependencies.
 Playwright: The main library for browser automation.
+
 @playwright/test: Provides additional testing features if you’re running tests with Playwright’s test runner.
 
 Step-by-Step Installation Guide
